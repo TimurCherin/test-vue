@@ -1,3 +1,5 @@
 <template>
-    <button class="rounded-xl bg-[#FFA279] text-white">Почати роботу</button>
+    <button class="bg-[#FFA279] rounded-xl py-3 px-10 text-white font-bold -tracking-wider">
+        <slot>Hello Button</slot>
+    </button>
 </template>
